@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250DF24F14C67F560001DEFA /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250DF24B14C67E9A0001DEFA /* RestKit.framework */; };
 		25D63919135184CE000879B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D63918135184CE000879B1 /* Cocoa.framework */; };
 		25D63923135184CE000879B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25D63921135184CE000879B1 /* InfoPlist.strings */; };
 		25D63926135184CE000879B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D63925135184CE000879B1 /* main.m */; };
@@ -18,6 +19,44 @@
 		25D63983135185B6000879B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D63982135185B6000879B1 /* SystemConfiguration.framework */; };
 		7751453015F1B46B00AA0EA5 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751452F15F1B46B00AA0EA5 /* RestKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		250DF24614C67E9A0001DEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D63938135184F0000879B1 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		250DF24814C67E9A0001DEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D63938135184F0000879B1 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		250DF24A14C67E9A0001DEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D63938135184F0000879B1 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		250DF24C14C67E9A0001DEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D63938135184F0000879B1 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		250DF25014C67F630001DEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D63938135184F0000879B1 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160E61145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		25D63914135184CE000879B1 /* RKMacOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKMacOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +72,7 @@
 		25D6392A135184CE000879B1 /* RKMacOSXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKMacOSXAppDelegate.h; sourceTree = "<group>"; };
 		25D6392B135184CE000879B1 /* RKMacOSXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKMacOSXAppDelegate.m; sourceTree = "<group>"; };
 		25D6392E135184CF000879B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		25D63938135184F0000879B1 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = ../../RestKit.xcodeproj; sourceTree = "<group>"; };
 		25D6397E13518574000879B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		25D639801351858A000879B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		25D63982135185B6000879B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -44,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7751453015F1B46B00AA0EA5 /* RestKit.framework in Frameworks */,
+				250DF24F14C67F560001DEFA /* RestKit.framework in Frameworks */,
 				25D63983135185B6000879B1 /* SystemConfiguration.framework in Frameworks */,
 				25D639811351858A000879B1 /* AppKit.framework in Frameworks */,
 				25D6397F13518574000879B1 /* CoreData.framework in Frameworks */,
@@ -118,6 +158,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		25D63939135184F0000879B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				250DF24714C67E9A0001DEFA /* libRestKit.a */,
+				250DF24914C67E9A0001DEFA /* RestKitTests.octest */,
+				250DF24B14C67E9A0001DEFA /* RestKit.framework */,
+				250DF24D14C67E9A0001DEFA /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D639841351868E000879B1 /* RestKit */ = {
+			isa = PBXGroup;
+			children = (
+				25D63938135184F0000879B1 /* RestKit.xcodeproj */,
+			);
+			name = RestKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +191,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				250DF25114C67F630001DEFA /* PBXTargetDependency */,
 			);
 			name = RKMacOSX;
 			productName = RKMacOSX;
@@ -144,7 +204,7 @@
 		25D6390B135184CE000879B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 25D6390E135184CE000879B1 /* Build configuration list for PBXProject "RKMacOSX" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -162,6 +222,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		250DF24714C67E9A0001DEFA /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 250DF24614C67E9A0001DEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		250DF24914C67E9A0001DEFA /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 250DF24814C67E9A0001DEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		250DF24B14C67E9A0001DEFA /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 250DF24A14C67E9A0001DEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		250DF24D14C67E9A0001DEFA /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 250DF24C14C67E9A0001DEFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		25D63912135184CE000879B1 /* Resources */ = {
@@ -187,6 +278,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250DF25114C67F630001DEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKitFramework;
+			targetProxy = 250DF25014C67F630001DEFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		25D63921135184CE000879B1 /* InfoPlist.strings */ = {
@@ -257,6 +356,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -266,7 +367,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RKMacOSX/RKMacOSX-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/../../Build\"";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "RKMacOSX/RKMacOSX-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -283,6 +384,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -292,7 +395,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RKMacOSX/RKMacOSX-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/../../Build\"";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "RKMacOSX/RKMacOSX-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
